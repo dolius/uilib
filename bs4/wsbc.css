@@ -2251,15 +2251,15 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important }
 
 
 
-@font-face { font-family: halis; src: url(./assets/fonts/halis-regular.otf) }
-@font-face { font-family: halis-bold; src: url(./assets/fonts/halis-bold.otf); font-weight: bold }
-@font-face { font-family: halisws-bold; src: url(./assets/fonts/worksafebchalisrbold-webfont.eot) }
-@font-face { font-family: halisws-medium; src: url(./assets/fonts/worksafebchalisrmedium-webfont.eot) }
-@font-face { font-family: halisws; src: url(./assets/fonts/worksafebchalisrregular-webfont.eot) }
-@font-face { font-family: halisws-bold; src: url(./assets/fonts/worksafebchalisrbold-webfont.eot) }
-@font-face { font-family: halisws-bold; src: url(./assets/fonts/worksafebchalisrbold-webfont.woff) }
-@font-face { font-family: halisws-medium; src: url(./assets/fonts/worksafebchalisrmedium-webfont.woff) }
-@font-face { font-family: halisws; src: url(./assets/fonts/worksafebchalisrregular-webfont.woff) }
+@font-face { font-family: halis; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/halis-regular.otf) }
+@font-face { font-family: halis-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/halis-bold.otf); font-weight: bold }
+@font-face { font-family: halisws-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrbold-webfont.eot) }
+@font-face { font-family: halisws-medium; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrmedium-webfont.eot) }
+@font-face { font-family: halisws; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrregular-webfont.eot) }
+@font-face { font-family: halisws-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrbold-webfont.eot) }
+@font-face { font-family: halisws-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrbold-webfont.woff) }
+@font-face { font-family: halisws-medium; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrmedium-webfont.woff) }
+@font-face { font-family: halisws; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrregular-webfont.woff) }
 * { font-variant-ligatures: none }
 body { font-family: "verdana"; color: #453f39; font-size: 14px; -webkit-font-smoothing: antialiased }
 .font-halisws { font-family: halisws }
