@@ -1,4 +1,11 @@
 @charset "UTF-8";
+
+/*!
+ * Bootstrap v4.6.2 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace }
 *, *::before, *::after { box-sizing: border-box }
 html { font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
@@ -1665,8 +1672,6 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus { b
 .min-vh-100 { min-height: 100vh !important }
 .vw-100 { width: 100vw !important }
 .vh-100 { height: 100vh !important }
-
-
 .m-0 { margin: 0 !important }
 .mt-0, .my-0 { margin-top: 0 !important }
 .mr-0, .mx-0 { margin-right: 0 !important }
@@ -2210,46 +2215,21 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important }
 	.table-dark { color: inherit }
 	.table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody+tbody { border-color: #dee2e6 }
 	.table .thead-dark th { color: inherit; border-color: #dee2e6 }
+
+
+
+
+
+
+
+/*!
+CUSTOM STYLES WSBC
+ */
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @font-face { font-family: halis; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/halis-regular.otf) }
 @font-face { font-family: halis-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/halis-bold.otf); font-weight: bold }
@@ -2260,6 +2240,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important }
 @font-face { font-family: halisws-bold; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrbold-webfont.woff) }
 @font-face { font-family: halisws-medium; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrmedium-webfont.woff) }
 @font-face { font-family: halisws; src: url(https://cdn.jsdelivr.net/gh/dolius/uilib@main/fonts/worksafebchalisrregular-webfont.woff) }
+
+
 * { font-variant-ligatures: none }
 body { font-family: "verdana"; color: #453f39; font-size: 14px; -webkit-font-smoothing: antialiased }
 .font-halisws { font-family: halisws }
@@ -2513,7 +2495,7 @@ header img { margin-top: 8px }
 .checkmark { position: absolute; top: 5px; left: 0; height: 17px; width: 17px; background-color: #fff; border-radius: 50%; border: 1px solid #928b83 }
 .container-radio:hover input ~ .checkmark { border: 1px solid #6399ae }
 .container-radio input:focus+.checkmark { border-color: #453f39; box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.25) }
-.checkmark:after { content: '.6'; position: absolute; display: none }
+.checkmark:after { content: ''; position: absolute; display: none }
 .checkboxButtonLabel { font-size: 14px; font-weight: bold; margin-bottom: 15px }
 .disabled-label { color: #c9c5c1; cursor: default !important }
 .container-checkbox { display: table; outline: 0; position: relative; padding-left: 30px; margin-bottom: 22px; cursor: pointer; font-size: 14px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; line-height: 1.2 }
@@ -2529,7 +2511,7 @@ header img { margin-top: 8px }
 .container-checkbox input[type=checkbox]:disabled+.checkmark-checkbox:after { position: absolute; left: 4px; top: -1px; width: 8px; height: 14px; border: 1px solid #c9c5c1; border-width: 0 4px 4px 0; -webkit-transform: rotate(40deg); -ms-transform: rotate(40deg); transform: rotate(40deg) }
 .checkmark-checkbox, .tertiary-checkmark-checkbox { position: absolute; top: 0; left: 0; height: 18px; width: 18px; background-color: #fff; border: 1px solid #928b83; border-radius: 2px }
 .container-checkbox:hover input ~ .checkmark-checkbox, .container-checkbox:hover input ~ .tertiary-checkmark-checkbox { border: 1px solid #6399ae }
-.checkmark-checkbox:after, .tertiary-checkmark-checkbox:after { content: '%23dc3545'; position: absolute; display: none }
+.checkmark-checkbox:after, .tertiary-checkmark-checkbox:after { content: ''; position: absolute; display: none }
 .container-checkbox input:focus+.checkmark-checkbox { border: 2px solid #453f39; box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.25) }
 .container-checkbox:hover input[type=checkbox]:disabled ~ .checkmark-checkbox, .container-checkbox:hover input[type=checkbox]:disabled ~ .tertiary-checkmark-checkbox { border: 1px solid #c9c5c1 }
 .container-checkbox input:focus:checked ~ .checkmark-checkbox:hover { border-width: 2px }
@@ -2542,6 +2524,9 @@ header img { margin-top: 8px }
 .outlined-rounded-5p { border: 2px solid #e4e2e0; border-radius: 18px }
 .border-blue { border-color: #6399ae }
 .border-green { border-color: #888d30 }
+
+
+
 .bullets ul { list-style: none }
 .bullets ul li, .bullets ol li { margin-left: 0; line-height: 15px; margin-bottom: 12px }
 .bullets ul li::before { content: 'none'; color: #ada8a2; display: inline-block; width: 25px; margin-bottom: 5px; margin-left: -25px; font-weight: bold }
@@ -2551,6 +2536,9 @@ header img { margin-top: 8px }
 .bullets ul li:before { margin-left: -1.8em; margin-bottom: 0 }
 .bullets ul li ul { padding-left: 20px; margin-top: 10px }
 .bullets ul li ul li:before { content: 'http://www.w3.org/2000/svg'; color: #c9c5c1; width: 25px }
+
+
+
 .toast-dark { position: fixed; z-index: 1; top: 0; background: #453f39 !important; border: 0; box-sizing: border-box; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); border-radius: 3px; width: 100%; max-width: 500px }
 .toast-dark .toast-icon { color: #f1be48; font-size: 34px; padding: 4px 0 5px 15px }
 .toast-dark .toast-content { padding: 21px 0 0 15px; color: #fff }
@@ -2565,7 +2553,7 @@ header img { margin-top: 8px }
 .small-modal .modal-dialog, .medium-modal .modal-dialog, .large-modal .modal-dialog, .x-large-modal .modal-dialog { left: 0; right: 0; top: 0; bottom: 0; margin: auto }
 .small-modal .modal-content { width: 400px; width: 100% }
 .medium-modal .modal-content { width: 600px; width: 100% }
-.large-modal .modal-content { max-width: 800px; width: 100%; background: }
+.large-modal .modal-content { max-width: 800px; width: 100% }
 .x-large-modal .modal-content { max-width: 1000px; width: 100% }
 .small-modal .modal-content, .medium-modal .modal-content, .large-modal .modal-content, .x-large-modal .modal-content { font-family: verdana; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); border: solid 1px #776e64; background-color: #fff; border: 1px solid #776e64; border-radius: 10px; -webkit-box-shadow: 1px 12px 9px -15px rgba(0, 0, 0, 0.75); -moz-box-shadow: 1px 12px 9px -15px rgba(0, 0, 0, 0.75); box-shadow: 1px 12px 9px -15px rgba(0, 0, 0, 0.75) }
 .modal-header { border-bottom-width: 0; padding: 23px 16px; padding-bottom: 22px }
@@ -2597,16 +2585,6 @@ header img { margin-top: 8px }
 	.modal-footer .btn-outline-blue { -webkit-box-ordinal-group: 2; -moz-box-ordinal-group: 2; order: 2 }
 	.modal-footer .btn-blue { -webkit-box-ordinal-group: 1; -moz-box-ordinal-group: 1; margin-bottom: 10px !important; order: 1 }
 }
-
-
-/* FIX FOR LARGE FOR MODAL NOT SHWOING UP */
-.large-modal .modal-dialog,
-.x-large-modal .modal-dialog {
-    width: 95%; /* Adjust width as needed */
-}
-
-
-
 .webui-popover-content a { text-decoration: none }
 .webui-popover-content { box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); border-color: #e4e2e0 }
 .webui-popover { border-width: 0; box-shadow: none !important }
@@ -3420,3 +3398,44 @@ input:-moz-placeholder { color: #776e64 }
 }
 [bsdatepicker]+.input-group-append>button:hover { color: white }
 .modal>.cdk-visually-hidden { display: inline-block }
+
+
+/* Updated toggle */
+
+.btn-group-toggle input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* Updated bullets */
+.bullets ul li::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    color: #ada8a2;
+    display: inline-block;
+    width: 25px;
+    margin-bottom: 5px;
+    margin-left: -25px;
+    font-weight: bold;
+}
+
+
+
+
+/* Define styles for the switches' handles */
+.slider:before {
+    position: absolute; /* Position the handle relative to the switch */
+    	height: 21px;
+	width: 22px;
+	left: 2px;
+	bottom: 2px;
+    content: ''; /* Ensure the handle has no content */
+    background-color: white; /* Define background color for the handle */
+    border-radius: 50%; /* Create a circular shape for the handle */
+    -webkit-transition: .1s; /* Add smooth transition for animation */
+    transition: .1s; /* Add smooth transition for animation */
+}
+
+
+
