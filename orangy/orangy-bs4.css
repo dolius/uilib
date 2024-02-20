@@ -3437,5 +3437,15 @@ input:-moz-placeholder { color: #776e64 }
     transition: .1s; /* Add smooth transition for animation */
 }
 
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: ''; /* Remove the numbers and keep it empty */
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
 
 
