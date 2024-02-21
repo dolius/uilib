@@ -3449,3 +3449,9 @@ input:-moz-placeholder { color: #776e64 }
 }
 
 
+.tooltip .arrow::before {
+    position: absolute;
+    content: ''; /* Remove the content property */
+    border-color: transparent;
+    border-style: solid;
+}
